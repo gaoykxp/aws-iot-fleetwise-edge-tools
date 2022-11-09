@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ -z "$CAN_IF" ]; then
+if [[ -z "$CAN_IF" ]]; then
     echo "Must provide CAN_IF in environment" 1>&2
     exit 1
 fi
